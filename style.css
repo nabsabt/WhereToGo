@@ -1,0 +1,47 @@
+body {
+    background-color: aqua;
+}
+
+#h1{
+    text-align: center;
+    font-size: 55px;
+
+}
+
+#main{
+    margin-top: 10%;
+    text-align: center;
+}
+
+#addOption{
+    font-size: 30px;
+}
+
+#imgDiv{
+    margin-top: 30px;
+}
+
+#img{
+    width: 60px;
+    height: 210px;
+    display: none;
+    animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+#result{
+    font-size: 55px;
+    margin-top: 40px;
+}
+
+#retro_link, #sorhaz_link, #est_link, #cameleon_link{
+    font-size: 20px;
+    display: none;
+}
