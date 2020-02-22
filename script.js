@@ -43,5 +43,5 @@ function calculate(){
         }
     }, 3000);
 
-
+    document.getElementById('calculate').title="Nem-nem, most már " +selectedOption+ " lesz, cica!";
 } 
